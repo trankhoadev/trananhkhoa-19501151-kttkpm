@@ -1,0 +1,1224 @@
+STATUS | wrapper  | 2024/04/21 07:36:52 | ActiveMQ installed.
+ERROR  | wrapper  | 2024/04/21 07:37:06 | CreateService failed - The specified service already exists. (0x431)
+STATUS | wrapper  | 2024/04/21 07:37:19 | --> Wrapper Started as Service
+STATUS | wrapper  | 2024/04/21 07:37:19 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 07:37:21 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 07:37:22 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 07:37:22 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 07:37:22 | 
+INFO   | jvm 1    | 2024/04/21 07:37:22 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 07:37:22 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 07:37:22 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Dactivemq.base=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ks -Djavax.net.ssl.trustStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf -Dactivemq.data=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../data -Djava.security.auth.login.config=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../bin/win64 -Dwrapper.key=HsM5mqM745stmtA1 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=32 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 07:37:22 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 07:37:22 |   [T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\camel,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\optional,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\web,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 07:37:22 | ACTIVEMQ_HOME: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 07:37:22 | ACTIVEMQ_BASE: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 07:37:22 | ACTIVEMQ_CONF: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\conf
+INFO   | jvm 1    | 2024/04/21 07:37:22 | ACTIVEMQ_DATA: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data
+INFO   | jvm 1    | 2024/04/21 07:37:23 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 07:37:24 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | ERROR | Failed to load: class path resource [activemq.xml], reason: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.main(Main.java:115) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) [wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 07:37:24 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | Caused by: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	... 16 more
+INFO   | jvm 1    | 2024/04/21 07:37:24 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 07:37:24 | ERROR: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 07:37:24 | 	... 28 more
+STATUS | wrapper  | 2024/04/21 07:37:27 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 07:37:32 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 07:37:32 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 07:37:32 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 07:37:32 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 07:37:32 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 07:37:32 | 
+INFO   | jvm 1    | 2024/04/21 07:37:33 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 07:37:33 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 07:37:33 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=kMvqTzKUStV0kzMp -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8292 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 07:37:33 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 07:37:33 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 07:37:33 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 07:37:33 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 07:37:33 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 07:37:33 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 07:37:33 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 07:37:33 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 07:37:33 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 07:37:33 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 07:37:33 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-51692-1713659854366-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@42d9f3ef{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-51692-1713659854366-0:1) started
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48887 mb of usable space. - resetting to maximum available disk space: 48887 mb
+INFO   | jvm 1    | 2024/04/21 07:37:34 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48887 mb of usable space. - resetting to maximum available disk space: 48887 mb
+INFO   | jvm 1    | 2024/04/21 07:37:35 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 07:37:35 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 07:59:41 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2024/04/21 08:02:54 | JVM requested a restart.
+INFO   | wrapper  | 2024/04/21 08:02:54 | Wrapper Process has not received any CPU time for 177 seconds.  Extending timeouts.
+INFO   | jvm 1    | 2024/04/21 08:02:54 | Wrapper Manager: The Wrapper code did not ping the JVM for 54 seconds.  Quit and let the Wrapper resynch.
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-51692-1713659854366-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-51692-1713659854366-0:1) uptime 23 minutes
+INFO   | jvm 1    | 2024/04/21 08:02:54 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-51692-1713659854366-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 08:02:59 | Launching a JVM...
+INFO   | jvm 2    | 2024/04/21 08:02:59 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 2    | 2024/04/21 08:03:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2024/04/21 08:03:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2024/04/21 08:03:00 | 
+INFO   | jvm 2    | 2024/04/21 08:03:00 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 2    | 2024/04/21 08:03:00 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 2    | 2024/04/21 08:03:00 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=9nLqQk7_QOdbHCSc -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8292 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2024/04/21 08:03:00 | Extensions classpath:
+INFO   | jvm 2    | 2024/04/21 08:03:00 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 2    | 2024/04/21 08:03:00 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 2    | 2024/04/21 08:03:00 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 2    | 2024/04/21 08:03:00 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 2    | 2024/04/21 08:03:00 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 2    | 2024/04/21 08:03:00 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Starting KahaDBStore
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Opening MessageDatabase
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | KahaDB is version 7
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Starting Temp Data Store
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-52196-1713661381708-0:1) is starting
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Connector openwire started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Connector amqp started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Connector stomp started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Connector mqtt started
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Starting Jetty server
+INFO   | jvm 2    | 2024/04/21 08:03:01 |  INFO | Creating Jetty connector
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2b37ad52{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | Connector ws started
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-52196-1713661381708-0:1) started
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48886 mb of usable space. - resetting to maximum available disk space: 48886 mb
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48886 mb of usable space. - resetting to maximum available disk space: 48886 mb
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 2    | 2024/04/21 08:03:02 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 2    | 2024/04/21 08:03:28 |  INFO | Connector vm://localhost started
+INFO   | jvm 2    | 2024/04/21 08:04:03 |  WARN | /admin/sendMessage.action
+INFO   | jvm 2    | 2024/04/21 08:04:03 | jakarta.servlet.ServletException: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.Server.handle(Server.java:563) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | Caused by: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	... 18 more
+INFO   | jvm 2    | 2024/04/21 08:04:03 | Caused by: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:520) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	... 18 more
+INFO   | jvm 2    | 2024/04/21 08:04:03 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59) ~[?:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:520) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 2    | 2024/04/21 08:04:03 | 	... 18 more
+STATUS | wrapper  | 2024/04/21 08:36:58 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 2    | 2024/04/21 08:36:59 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-52196-1713661381708-0:1) is shutting down
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector openwire stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector amqp stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector stomp stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector mqtt stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector ws stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Stopping async queue tasks
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Stopping async topic tasks
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Stopped KahaDB
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-52196-1713661381708-0:1) uptime 33 minutes
+INFO   | jvm 2    | 2024/04/21 08:37:00 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-52196-1713661381708-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 08:37:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:05:48 | --> Wrapper Started as Service
+STATUS | wrapper  | 2024/04/21 10:05:48 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:05:49 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:05:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:05:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:05:50 | 
+INFO   | jvm 1    | 2024/04/21 10:05:50 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:05:50 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:05:50 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Dactivemq.base=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ks -Djavax.net.ssl.trustStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf -Dactivemq.data=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../data -Djava.security.auth.login.config=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../bin/win64 -Dwrapper.key=_Ww_0o1glLRUgNuI -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12708 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:05:50 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:05:50 |   [T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\camel,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\optional,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\web,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:05:50 | ACTIVEMQ_HOME: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 10:05:50 | ACTIVEMQ_BASE: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 10:05:50 | ACTIVEMQ_CONF: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:05:50 | ACTIVEMQ_DATA: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data
+INFO   | jvm 1    | 2024/04/21 10:05:51 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:05:55 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:55 | ERROR | Failed to load: class path resource [activemq.xml], reason: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:55 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.apache.activemq.console.Main.main(Main.java:115) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) [wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:05:55 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 10:05:56 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | Caused by: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	... 16 more
+INFO   | jvm 1    | 2024/04/21 10:05:56 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 10:05:56 | ERROR: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 10:05:56 | 	... 28 more
+STATUS | wrapper  | 2024/04/21 10:05:58 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:07:03 | --> Wrapper Started as Service
+STATUS | wrapper  | 2024/04/21 10:07:03 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:07:03 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:07:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:07:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:07:03 | 
+INFO   | jvm 1    | 2024/04/21 10:07:04 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:07:04 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:07:04 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Dactivemq.base=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ks -Djavax.net.ssl.trustStore=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf -Dactivemq.data=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../data -Djava.security.auth.login.config=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=T:\\VoVanHai\\softwares\\apache-activemq-6.1.1\\bin\\win64\\..\\../bin/win64 -Dwrapper.key=n6IR8PojM4DC8rl5 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4496 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:07:04 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:07:04 |   [T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\camel,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\optional,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\web,T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:07:04 | ACTIVEMQ_HOME: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 10:07:04 | ACTIVEMQ_BASE: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..
+INFO   | jvm 1    | 2024/04/21 10:07:04 | ACTIVEMQ_CONF: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:07:04 | ACTIVEMQ_DATA: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data
+INFO   | jvm 1    | 2024/04/21 10:07:04 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:07:05 |  WARN | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | ERROR | Failed to load: class path resource [activemq.xml], reason: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52) ~[xbean-spring-4.24.jar:4.24]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104) ~[activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67) [activemq-spring-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54) [activemq-broker-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104) [activemq-console-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.main(Main.java:115) [activemq.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240) [wrapper.jar:3.2.3]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163) ~[spring-core-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80) ~[spring-beans-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 10:07:05 | ERROR: java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | java.lang.RuntimeException: Failed to execute start task. Reason: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:91)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | Caused by: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	... 16 more
+INFO   | jvm 1    | 2024/04/21 10:07:05 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	... 28 more
+INFO   | jvm 1    | 2024/04/21 10:07:05 | ERROR: org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | org.springframework.beans.factory.BeanInitializationException: Could not load properties: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:89)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:189)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:64)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.xbean.spring.context.ResourceXmlApplicationContext.<init>(ResourceXmlApplicationContext.java:52)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory$1.<init>(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createApplicationContext(XBeanBrokerFactory.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.xbean.XBeanBrokerFactory.createBroker(XBeanBrokerFactory.java:67)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:71)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.broker.BrokerFactory.createBroker(BrokerFactory.java:54)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.StartCommand.runTask(StartCommand.java:87)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.runTask(ShellCommand.java:154)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.AbstractCommand.execute(AbstractCommand.java:63)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.command.ShellCommand.main(ShellCommand.java:104)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.runTaskClass(Main.java:262)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.apache.activemq.console.Main.main(Main.java:115)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.lang.Thread.run(Thread.java:833)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | Caused by: java.io.FileNotFoundException: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\conf\credentials.properties (The system cannot find the path specified)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open0(Native Method)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:232)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:160)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:100)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:182)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.core.io.support.PropertiesLoaderSupport.mergeProperties(PropertiesLoaderSupport.java:163)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:80)
+INFO   | jvm 1    | 2024/04/21 10:07:05 | 	... 28 more
+STATUS | wrapper  | 2024/04/21 10:07:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:07:19 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 10:07:19 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:07:19 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:07:19 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:07:19 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:07:19 | 
+INFO   | jvm 1    | 2024/04/21 10:07:19 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:07:19 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:07:19 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=t5BkIoJKUt1F0pPp -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11952 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:07:19 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:07:19 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:07:19 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 10:07:19 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 10:07:19 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:07:19 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 10:07:20 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 10:07:20 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-53673-1713668840763-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2432147d{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-53673-1713668840763-0:1) started
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 10:07:21 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 10:27:56 |  WARN | /admin/deleteDestination.action
+INFO   | jvm 1    | 2024/04/21 10:27:56 | jakarta.servlet.ServletException: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.Server.handle(Server.java:563) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | Caused by: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	... 18 more
+INFO   | jvm 1    | 2024/04/21 10:27:56 | Caused by: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:500) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	... 18 more
+INFO   | jvm 1    | 2024/04/21 10:27:56 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:500) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 10:27:56 | 	... 18 more
+STATUS | wrapper  | 2024/04/21 10:35:53 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-53673-1713668840763-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Could not accept connection during shutdown  : null (null)
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2024/04/21 10:35:54 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2024/04/21 10:35:55 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-53673-1713668840763-0:1) uptime 28 minutes
+INFO   | jvm 1    | 2024/04/21 10:35:55 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-53673-1713668840763-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 10:35:55 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:47:00 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 10:47:00 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:47:01 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:47:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:47:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:47:01 | 
+INFO   | jvm 1    | 2024/04/21 10:47:01 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:47:01 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:47:01 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=7VDHbgKrZ1mP7DSf -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6456 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:47:01 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:47:01 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:47:01 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 10:47:01 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 10:47:01 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:47:01 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 10:47:02 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Recovering from the journal @1:6144
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Recovery replayed 1 operations from the journal in 0.019 seconds.
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54729-1713671224677-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 10:47:04 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2ec66157{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54729-1713671224677-0:1) started
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:47:05 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:47:06 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 10:47:06 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 10:50:16 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2024/04/21 10:50:41 |  INFO | Removing message inventory.topic_01(ID:H31M44-52891-1713663091910-1:1:1:1:1)
+INFO   | jvm 1    | 2024/04/21 10:50:43 |  INFO | Removing message inventory.topic_01(ID:H31M44-52903-1713663120843-1:1:1:1:1)
+INFO   | jvm 1    | 2024/04/21 10:50:48 |  INFO | Removing message inventory.topic_01(ID:H31M44-53687-1713668899309-1:1:1:1:1)
+INFO   | jvm 1    | 2024/04/21 10:50:50 |  INFO | Removing message inventory.topic_01(ID:H31M44-54729-1713671224677-4:1:1:1:1)
+STATUS | wrapper  | 2024/04/21 10:52:42 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54729-1713671224677-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54729-1713671224677-0:1) uptime 5 minutes
+INFO   | jvm 1    | 2024/04/21 10:52:44 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54729-1713671224677-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 10:52:45 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:52:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 10:52:51 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:52:51 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:52:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:52:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:52:51 | 
+INFO   | jvm 1    | 2024/04/21 10:52:51 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:52:51 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:52:51 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=oheGt5zzpuCiaZ0F -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10952 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:52:51 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:52:51 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:52:51 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 10:52:51 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 10:52:51 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:52:51 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 10:52:52 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54923-1713671573177-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@127217a9{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54923-1713671573177-0:1) started
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:52:53 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:52:54 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 10:52:54 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 10:53:16 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2024/04/21 10:56:14 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54923-1713671573177-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2024/04/21 10:56:14 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54923-1713671573177-0:1) uptime 3 minutes
+INFO   | jvm 1    | 2024/04/21 10:56:15 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-54923-1713671573177-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 10:56:16 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 10:56:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 10:56:20 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 10:56:20 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 10:56:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 10:56:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 10:56:20 | 
+INFO   | jvm 1    | 2024/04/21 10:56:20 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 10:56:20 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 10:56:20 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=rOVJhQkjy1wnU09t -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=4872 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 10:56:20 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 10:56:20 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 10:56:20 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 10:56:20 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 10:56:20 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 10:56:20 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 10:56:21 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Recovering from the journal @1:9938
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Recovery replayed 2 operations from the journal in 0.018 seconds.
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 10:56:21 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-55061-1713671781818-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@5ddf65e{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-55061-1713671781818-0:1) started
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48880 mb of usable space. - resetting to maximum available disk space: 48880 mb
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 10:56:22 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 11:07:23 |  WARN | /admin/deleteDestination.action
+INFO   | jvm 1    | 2024/04/21 11:07:23 | jakarta.servlet.ServletException: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.Server.handle(Server.java:563) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1598) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:753) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:501) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:287) [jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) [jetty-io-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:421) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:390) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:277) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:199) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:411) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:969) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1194) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1149) [jetty-util-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | Caused by: jakarta.servlet.ServletException: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:157) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	... 18 more
+INFO   | jvm 1    | 2024/04/21 11:07:23 | Caused by: jakarta.servlet.ServletException: Request processing failed: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:500) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	... 18 more
+INFO   | jvm 1    | 2024/04/21 11:07:23 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:507) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1065) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:500) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587) ~[jetty-jakarta-servlet-api-5.0.2.jar:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1419) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1665) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59) ~[activemq-web-6.1.1.jar:6.1.1]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:202) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102) ~[?:?]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:210) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1635) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:527) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:131) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:223) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1580) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1381) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484) ~[jetty-servlet-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1303) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:558) ~[jetty-security-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:141) ~[jetty-server-11.0.20.jar:11.0.20]
+INFO   | jvm 1    | 2024/04/21 11:07:23 | 	... 18 more
+STATUS | wrapper  | 2024/04/21 11:10:23 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-55061-1713671781818-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-55061-1713671781818-0:1) uptime 14 minutes
+INFO   | jvm 1    | 2024/04/21 11:10:25 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-55061-1713671781818-0:1) is shutdown
+STATUS | wrapper  | 2024/04/21 11:10:25 | <-- Wrapper Stopped
+STATUS | wrapper  | 2024/04/21 13:07:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/04/21 13:07:25 | Launching a JVM...
+INFO   | jvm 1    | 2024/04/21 13:07:26 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/04/21 13:07:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/04/21 13:07:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/04/21 13:07:26 | 
+INFO   | jvm 1    | 2024/04/21 13:07:26 | Java Runtime: Oracle Corporation 17.0.8 C:\Java\jdk-17
+INFO   | jvm 1    | 2024/04/21 13:07:26 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2024/04/21 13:07:26 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\\\..\\\\conf\\\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=jek8eAcYzm0TqQrK -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5212 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/04/21 13:07:26 | Extensions classpath:
+INFO   | jvm 1    | 2024/04/21 13:07:26 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/04/21 13:07:26 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/04/21 13:07:26 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/04/21 13:07:26 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/04/21 13:07:26 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/04/21 13:07:28 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Recovering from the journal @1:11398
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Recovery replayed 1 operations from the journal in 0.022 seconds.
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | PListStore:[T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/04/21 13:07:29 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-50288-1713679649829-0:1) is starting
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Listening for connections at: tcp://H31M44:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Listening for connections at: amqp://H31M44:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Listening for connections at: stomp://H31M44:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Listening for connections at: mqtt://H31M44:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@35747c1{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Listening for connections at ws://H31M44:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-50288-1713679649829-0:1) started
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data\kahadb only has 48624 mb of usable space. - resetting to maximum available disk space: 48624 mb
+INFO   | jvm 1    | 2024/04/21 13:07:30 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: T:\VoVanHai\softwares\apache-activemq-6.1.1\bin\win64\..\..\data only has 48623 mb of usable space. - resetting to maximum available disk space: 48623 mb
+INFO   | jvm 1    | 2024/04/21 13:07:31 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/04/21 13:07:31 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/04/21 13:16:02 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2024/04/21 13:44:31 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2024/04/21 13:44:39 |  INFO | Apache ActiveMQ 6.1.1 (localhost, ID:H31M44-50288-1713679649829-0:1) is shutting down
+INFO   | jvm 1    | 2024/04/21 13:44:39 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2024/04/21 13:44:40 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2024/04/21 13:44:40 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2024/04/21 13:44:40 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2024/04/21 13:44:40 |  INFO | socketQueue interrupted - stopping
+INFO   | jvm 1    | 2024/04/21 13:44:40 |  INFO | Could not accept connection during shutdown  : null (null)
+STATUS | wrapper  | 2024/04/21 13:44:50 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2024/04/21 13:44:50 | JVM did not exit on request, terminated
+INFO   | jvm 1    | 2024/04/21 13:44:51 |  INFO | Connector ws stopped
+STATUS | wrapper  | 2024/04/21 13:44:51 | <-- Wrapper Stopped
